@@ -56,8 +56,7 @@ def detect():
 
 
 def detect_subcate_category(subcate):
-    sub = prediction.run(subcate, 1)
-    cate = sub['Category'].item()
+    cate = prediction.run(subcate, 1)
     return cate
 
 
